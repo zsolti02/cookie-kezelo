@@ -1,0 +1,55 @@
+.littleBox {
+  height: 207px;
+  width: 440px;
+  overflow: scroll;
+  background-color: #0400d1;
+  margin-left: 39px;
+  margin-top: 10px;
+  float: left;
+  position: absolute;
+  left: 0%;
+  right: 75.38%;
+  top: 55.78%;
+  bottom: 20.59%;
+}
+mat-icon {
+  margin-top: 10px;
+  color: white;
+  float: left;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+h4 {
+  color: white;
+  margin-top: 11px;
+}
+p {
+  color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-weight: normal;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  text-align: justify;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.BR {
+  border-right-color: #232323;
+}
